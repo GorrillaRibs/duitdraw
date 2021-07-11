@@ -7,32 +7,32 @@ import "image/color"
 type Color uint32
 
 const (
-	Opaque        Color = 0xFFFFFFFF
+	Opaque        Color = 0x272932FF
 	Transparent   Color = 0x00000000 /* only useful for allocimage memfillcolor */
-	Black         Color = 0x000000FF
-	White         Color = 0xFFFFFFFF
-	Red           Color = 0xFF0000FF
-	Green         Color = 0x00FF00FF
-	Blue          Color = 0x0000FFFF
-	Cyan          Color = 0x00FFFFFF
-	Magenta       Color = 0xFF00FFFF
-	Yellow        Color = 0xFFFF00FF
-	Paleyellow    Color = 0xFFFFAAFF
-	Darkyellow    Color = 0xEEEE9EFF
-	Darkgreen     Color = 0x448844FF
-	Palegreen     Color = 0xAAFFAAFF
-	Medgreen      Color = 0x88CC88FF
-	Darkblue      Color = 0x000055FF
-	Palebluegreen Color = 0xAAFFFFFF
-	Paleblue      Color = 0x0000BBFF
-	Bluegreen     Color = 0x008888FF
-	Greygreen     Color = 0x55AAAAFF
-	Palegreygreen Color = 0x9EEEEEFF
-	Yellowgreen   Color = 0x99994CFF
-	Medblue       Color = 0x000099FF
-	Greyblue      Color = 0x005DBBFF
-	Palegreyblue  Color = 0x4993DDFF
-	Purpleblue    Color = 0x8888CCFF
+	Black         Color = 0xDFDFDFFF
+	White         Color = 0x272932FF
+	Red           Color = 0xFF6C6BFF
+	Green         Color = 0x98BE65FF
+	Blue          Color = 0x51AFEFFF
+	Cyan          Color = 0x46D9FFFF
+	Magenta       Color = 0xC678DDFF
+	Yellow        Color = 0xECBE7BFF
+	Paleyellow    Color = 0xECBE7BFF
+	Darkyellow    Color = 0xECBE7BFF
+	Darkgreen     Color = 0x98BE65FF
+	Palegreen     Color = 0x98BE65FF
+	Medgreen      Color = 0x98BE65FF
+	Darkblue      Color = 0x51AFEFFF
+	Palebluegreen Color = 0x51AFEFFF
+	Paleblue      Color = 0x46D9FFFF
+	Bluegreen     Color = 0x46D9FFFF
+	Greygreen     Color = 0x98BE65FF
+	Palegreygreen Color = 0x98BE65FF
+	Yellowgreen   Color = 0xECBE7BFF
+	Medblue       Color = 0x51AFEFFF
+	Greyblue      Color = 0x5C6370FF
+	Palegreyblue  Color = 0xDCDFE4FF
+	Purpleblue    Color = 0xC678DDFF
 
 	Notacolor Color = 0xFFFFFF00
 	Nofill    Color = Notacolor
